@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*css*/
+
+@layer base {
+	body {
+		font-family: "DM Sans", sans-serif;
+		color: #222222;
+		font-weight: 400;
+		font-style: normal;
+	}
+}
+
+@layer components {
+	.container {
+		@apply max-w-[1150px];
+	}
+}
+
+.swiper {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+
+/* .swiper-slide img {
+	display: block;
+	width: 100%;
+} */
+
+.auto {
+	margin: 0 auto;
+}
+.radius-b {
+	border-top-left-radius: 6px;
+}
+
+.is-active {
+	color: #086cf9;
+}
+
+.translateO {
+	transform: translateY(-400%);
+	transition: transform 0.3s ease-in-out;
+}
+
+.menu-active {
+	transform: translate(0);
+	transition: transform 0.3s ease-in-out;
+}
+
+.body-lock {
+	overflow: hidden;
+}
+
+.active {
+	position: relative;
+	overflow: hidden;
+}
+
+.active span:nth-child(2) {
+	transform: translate(150%);
+	transition: transform 0.5s;
+}
+
+span:nth-child(2) {
+	transform: translate(0);
+	transition: transform 0.5s;
+}
+
+.active span:first-child {
+	transform: rotate(45deg);
+	transition: transform 0.3s;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+.active span:last-child {
+	transform: rotate(-45deg);
+	transition: transform 0.3s;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}

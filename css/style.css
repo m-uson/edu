@@ -557,6 +557,10 @@ body {
   z-index: 10;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -838,14 +842,14 @@ body {
   background-color: rgb(8 108 249 / var(--tw-bg-opacity));
 }
 
-.bg-c-ef {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 239 239 / var(--tw-bg-opacity));
-}
-
 .bg-c-d3 {
   --tw-bg-opacity: 1;
   background-color: rgb(211 229 254 / var(--tw-bg-opacity));
+}
+
+.bg-c-ef {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 239 239 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\.\/image\/content\.jpg\'\)\] {

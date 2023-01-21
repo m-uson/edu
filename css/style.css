@@ -654,24 +654,20 @@ body {
   margin-right: 18px;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mr-\[10px\] {
-  margin-right: 10px;
-}
-
-.mb-\[15px\] {
-  margin-bottom: 15px;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mr-4 {
   margin-right: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .block {
@@ -734,6 +730,10 @@ body {
   width: 400px;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .min-w-\[30px\] {
   min-width: 30px;
 }
@@ -756,6 +756,10 @@ body {
 
 .max-w-\[360px\] {
   max-width: 360px;
+}
+
+.max-w-\[350px\] {
+  max-width: 350px;
 }
 
 .cursor-pointer {
@@ -966,6 +970,11 @@ body {
   font-size: 48px;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -976,10 +985,6 @@ body {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .leading-8 {
@@ -1016,6 +1021,11 @@ body {
 .text-c-86 {
   --tw-text-opacity: 1;
   color: rgb(8 108 249 / var(--tw-text-opacity));
+}
+
+.text-c-44 {
+  --tw-text-opacity: 1;
+  color: rgb(68 68 68 / var(--tw-text-opacity));
 }
 
 .shadow-sh {
@@ -1127,6 +1137,10 @@ span:nth-child(2) {
     margin-bottom: 1rem;
   }
 
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
   .md\:min-h-\[400px\] {
     min-height: 400px;
   }
@@ -1141,6 +1155,10 @@ span:nth-child(2) {
 
   .md\:max-w-\[230px\] {
     max-width: 230px;
+  }
+
+  .md\:max-w-\[245px\] {
+    max-width: 245px;
   }
 
   .md\:flex-wrap {
@@ -1211,12 +1229,8 @@ span:nth-child(2) {
     margin-right: 0px;
   }
 
-  .sm\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
-  .sm\:mb-\[10px\] {
-    margin-bottom: 10px;
+  .sm\:mb-16 {
+    margin-bottom: 4rem;
   }
 
   .sm\:block {
@@ -1227,8 +1241,8 @@ span:nth-child(2) {
     display: none;
   }
 
-  .sm\:min-h-\[400px\] {
-    min-height: 400px;
+  .sm\:min-h-\[500px\] {
+    min-height: 500px;
   }
 
   .sm\:min-h-\[100\%\] {
@@ -1285,6 +1299,10 @@ span:nth-child(2) {
 
   .mos\:w-\[300px\] {
     width: 300px;
+  }
+
+  .mos\:max-w-\[350px\] {
+    max-width: 350px;
   }
 
   .mos\:flex-col {

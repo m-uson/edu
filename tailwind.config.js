@@ -15,9 +15,6 @@ module.exports = {
 				"c-bf": "#BFBFBF",
 				b: " #E9E8E8",
 			},
-			backgroundImage: {
-				content: "url('/src/image/content.jpg')",
-			},
 			boxShadow: {
 				sh: "0px 11px 35px rgba(0, 0, 0, 0.08)",
 			},

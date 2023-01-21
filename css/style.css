@@ -854,10 +854,6 @@ body {
   background-color: rgb(211 229 254 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/src\/image\/content\.jpg\'\)\] {
-  background-image: url('./src/image/content.jpg');
-}
-
 .bg-\[url\(\'\.\.\/image\/content\.jpg\'\)\] {
   background-image: url('../image/content.jpg');
 }

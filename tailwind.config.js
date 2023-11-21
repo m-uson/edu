@@ -31,7 +31,7 @@ export default {
       mo: { max: "375px" },
     },
     container: {
-      padding: "10px",
+      padding: "15px",
       overflow: "hidden",
       center: true,
     },

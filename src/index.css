@@ -19,10 +19,6 @@
 	}
 }
 
-.times {
-	transform: rotate(180deg);
-}
-
 .swiper {
 	width: 100%;
 	padding-top: 50px;
@@ -36,6 +32,10 @@
 	height: 300px;
 }
 
+.times {
+	transform: rotate(180deg);
+}
+
 .auto {
 	margin: 0 auto;
 }
@@ -47,45 +47,62 @@
 	color: #086cf9;
 }
 
-.translateO {
-	transform: translateY(-400%);
-	transition: transform 0.3s ease-in-out;
+.translateY {
+  min-height: 1200%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+  background: #252525;
+	transform: translateX(-400%);
+	transition: transform 0.5s ease-in-out;
 }
 
-.menu-active {
-	transform: translate(0);
-	transition: transform 0.3s ease-in-out;
+.active-block {
+	min-height: 1200%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+  background: white;
+  transform: translateX(0%);
+	transition: transform 0.5s ease-in-out;
 }
 
 .body-lock {
 	overflow: hidden;
 }
-
-.active {
-	position: relative;
-	overflow: hidden;
+.span {
+  display: block;
+  min-width: 30px;
+  min-height: 2.5px;
+  background: black;
+  margin-bottom: 4px;
 }
 
-.active span:nth-child(2) {
-	transform: translate(150%);
-	transition: transform 0.5s;
+.span:last-child {
+  margin-bottom: 0;
 }
 
-span:nth-child(2) {
-	transform: translate(0);
-	transition: transform 0.5s;
-}
-
-.active span:first-child {
-	transform: rotate(45deg);
+.one {
+  transform: rotate(45deg);
 	transition: transform 0.3s;
 	position: absolute;
 	right: 0;
 	top: 10px;
 }
 
-.active span:last-child {
-	transform: rotate(-45deg);
+.two {
+  transform: translate(150%);
+	transition: transform 0.5s;
+}
+
+.false-two {
+	transition: transform 0.5s;
+}
+
+.tree {
+  transform: rotate(-45deg);
 	transition: transform 0.3s;
 	position: absolute;
 	right: 0;
